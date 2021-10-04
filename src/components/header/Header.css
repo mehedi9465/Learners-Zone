@@ -1,0 +1,9 @@
+.navigationButton{
+    text-decoration: none !important;
+    margin: 5px 8px;
+    color: white;
+}
+
+.active{
+    color: #48A9E9;
+}
