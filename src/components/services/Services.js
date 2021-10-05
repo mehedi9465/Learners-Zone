@@ -12,7 +12,7 @@ const Services = () => {
             <Header></Header>
             <div>
                 <Container>
-                    <div className="services">
+                    <div className="services my-5 py-5">
                         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center align-items-center">
                             <div className="d-flex flex-column justify-content-start align-items-center my-5 pt-4">
                                 <img src="https://cdn-icons-png.flaticon.com/64/3199/3199301.png" alt="" />
