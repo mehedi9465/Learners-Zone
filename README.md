@@ -21,3 +21,7 @@ Users can easily access
 ### Verified trainers
 
 There are 20 professional trainers in here
+
+### Buffer free pre-recoded class
+
+You can see your course videos without any buffer.
