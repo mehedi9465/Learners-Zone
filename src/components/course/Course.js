@@ -3,6 +3,7 @@ import './Course.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShareSquare, faStar, faStarHalf } from '@fortawesome/free-solid-svg-icons'; 
 import Rating from 'react-rating';
+import { Button, Col, Image } from 'react-bootstrap';
 // import Rating from 'react-rating';
 
 const Course = (props) => {
@@ -13,16 +14,18 @@ const Course = (props) => {
     // Use Conditional Rendaring
 
     return (
-        <div className='course'>    
+        <div className='course'>
+            <Col>
+                    
             {/* Card Image */}
             <div className="course-img">
-                <img src={img} alt="" />
+                <Image src={img} fluid />
             </div>
 
             {/* Card Details */}
             <div className="course-des">
-                <h3>{course_name}</h3>
-                <h5>{institute}</h5>
+                <h4>{course_name}</h4>
+                <h6>{institute}</h6>
                 <div style={{width: '60%', margin: 'auto',display: 'flex', justifyContent: 'space-around'}}>
                     <p><small>{department}</small></p>
                     <p><small>{language}</small></p>
@@ -47,7 +50,8 @@ const Course = (props) => {
                 />      
                 
             </div>
-            <button onClick={() => props.SelectProducts(props.course)}><FontAwesomeIcon icon={faShareSquare}/> Enroll</button>
+            <Button className="btn rounded-pill" onClick={() => props.SelectProducts(props.course)}><FontAwesomeIcon icon={faShareSquare}/> Enroll</Button>
+            </Col>
         </div>
            
      

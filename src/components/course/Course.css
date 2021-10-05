@@ -1,6 +1,6 @@
 .course{
     text-align: center;
-    margin: 15px;
+    margin: 15px ;
     /* border: 1px solid rgb(128, 126, 126); */
     border-radius: 10px;
     padding: 15px 0px;
@@ -16,19 +16,20 @@
 }
 
 .course-img img{
-    width: 200px;
-    border-radius: 50%;
+    width: 150px;
+    /* border-radius: 50%; */
 }
 
 .course:hover{
-    box-shadow: 2px 2px 5px 1px #2e2b2b;
+    box-shadow: 2px 2px 3px 1px #2e2b2b;
 }
 
-.course button{
+/* .course button{
     margin-top: 20px;
-    padding: 10px 30px;
+    padding: 7px 20px;
     background-color: #232946;
     color: white;
     border: none;
     border-radius: 20px;
-}
+    font-size: 14px;
+} */

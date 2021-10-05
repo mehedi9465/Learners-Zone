@@ -20,7 +20,7 @@
     "react-scripts": "4.0.3",
     "react-slick": "^0.28.1",
     "recharts": "^2.1.4",
-    "slick-carousel": "^1.8.1",
+    "rerousel": "^0.1.9",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

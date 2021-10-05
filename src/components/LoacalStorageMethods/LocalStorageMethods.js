@@ -20,4 +20,4 @@ const addToDB = id => {
     upDateDb(selected_course);
   }
 
-export { getDb, addToDB }
+export { getDb, addToDB, upDateDb}

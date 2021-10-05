@@ -31,7 +31,7 @@ const Courses = () => {
         <EnrolledContext.Provider value={selected}>
             <div>
                 <Header></Header>
-                    <Container>
+                    <Container className="my-5 py-5">
                         <Row>
                         <div className='courses'>
                             {

@@ -6,7 +6,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <div className="bg-dark text-light">
+        <div className="bg-dark text-light fixed-bottom" >
             <Container>
                 <div className="footer">
                 <p>© 2021 Leaners-Zone Inc. All rights reserved. </p>
