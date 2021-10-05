@@ -46,7 +46,7 @@ const SingleCourseDetails = () => {
             <Container className="my-5 py-5">
                 <Row>
                 {
-                    CartedCourses?.length ? <div>
+                    <div className="contents">
                         <h3 className="text-center mt-5">Enrolled Courses</h3>
                         {
                             
@@ -65,10 +65,6 @@ const SingleCourseDetails = () => {
                             </div>)
                         }
                             </div>
-                    :
-                    <div>
-                        <h3>Something Went Wrong</h3>
-                    </div>
                 }
                     
                 </Row>
